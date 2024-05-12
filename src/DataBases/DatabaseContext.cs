@@ -10,7 +10,7 @@ namespace sda_onsite_2_csharp_backend_teamwork_The_countryside_developers
         public DbSet<OrderItem> OrderItem { get; set; }
 
         public DbSet<Category> Category { get; set; }
-        // public DbSet<Payment> Payment { get; set; }
+        public DbSet<Payment> Payment { get; set; }
         private IConfiguration _config;
         public DatabaseContext(IConfiguration config)
         {
