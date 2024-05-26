@@ -5,9 +5,11 @@ using System.Threading.Tasks;
 
 namespace sda_onsite_2_csharp_backend_teamwork_The_countryside_developers
 {
-    public class OrderCreateDto
-    {
-        public Guid ProductId { get; set; }
-        public int Quantity { get; set; }
-    }
+public enum Status
+{
+    Processing,
+    Shipped,
+    OutForDelivery,
+    Delivered
+}
 }
